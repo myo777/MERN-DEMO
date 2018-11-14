@@ -1,0 +1,21 @@
+<% include partials/header %>
+
+
+<div class="row">
+    <h5><%= post.name %></h5>
+    <div class="nine columns">
+        <p>Posted By <small><%= post.user.username %></small>, <%= moment(post.createdAt).fromNow() %></p>
+        <small><%- post.description %></small><br/>
+
+        <span>Too long, didn't read?</span><br /><br />
+        <span><%= post.sumary %></span>
+        <button><a href="/posts"><< All articals</a></button>
+       </div>
+
+</div>
+
+<% include partials/footer %>
+
+
+
+

@@ -1,0 +1,24 @@
+<% include partials/header %>
+<div class="index-header">
+    <h4>Welcome To Tech talk!</h4>
+    <span><small>Please write and share tech stories that latter</small></span><br />
+    
+    <a href="/posts/new">Write a TechTalks Post</a>
+</div>
+ <small class="random">A Random TechTalk artical for you to enjoy</small>
+
+ <ul>
+    <% list.forEach(function(item){ %>
+        <li class="list-item">
+           <small><%= item.name %></small>
+           <button class="btn"><a href="/posts/<%= item._id %>">Read Articals</a></button>
+           Posted By   <%= item.user.username %></a>
+        </li>
+         
+    <% }); %>
+</ul>
+
+
+<% include partials/footer %>
+
+

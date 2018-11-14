@@ -1,0 +1,232 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing:border-box;
+}
+
+ul {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+form input {
+    display: block;
+}
+form textarea {
+    display: block;
+    width: 100%;
+}
+
+.list-item {
+    
+    width:90%;
+    background-color: silver;
+    border:solid 1px #dedede;
+    border-radius: .2rem;
+    
+    margin: 0 auto;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.random{
+    margin-left: 30px;
+    color: red;
+}
+
+.btn{
+    width:100px;
+    height: 25px;
+    margin-left: 70%;
+    background-color: crimson;
+    border-radius: 7px;
+    color:white;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+
+.list-item p {
+    margin: 0;
+}
+
+.list-item img {
+    border-radius: .2rem;
+    width: 100%;
+}
+
+
+
+.navbar {
+    margin: 2px 0; 
+}
+.navbar-item {
+    display: inline;
+    letter-spacing: .1rem;
+    padding: 0 2px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+
+.comment:nth-child(n+2) {
+    border-top: 1px solid #dedede ;
+    padding-top: 5px; 
+}
+
+.comment p {
+    margin: .5rem 0;
+}
+
+.controls {
+    display: inline;
+}
+.controls * {
+    display: inline;
+    margin: 0 1px;
+    padding: 2px 4px;
+    line-height: 20px;
+    height: 24px;
+
+}
+
+#flash {
+    color: #1EAEDB;
+    padding: 2px 5px;
+    border: solid 1px #1EAEDB;
+    border-radius: .4rem;
+    display: inline;
+}
+
+.index-header {
+    margin-bottom: 3rem;
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.latest-item {
+    display: block;
+    clear: both;
+}
+
+.latest-item span {
+    width: 60%;
+    display: block;
+    float: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.latest-item div {
+    float: left;
+    width: 30%;
+    height: 30%;
+    background-position: center;
+}
+
+#fav-list {
+    width: 60%;
+}
+
+#avatar {
+    padding: 1px;
+    border: solid 1px #dedede;
+    border-radius: 2px;
+}
+
+#username {
+    margin-bottom: 10px;
+}
+
+#user-header {
+    margin-top: 10px;
+}
+
+#carousel-wrap {
+    height: 150px;
+    overflow: hidden;
+}
+
+
+.footer{
+    background-color:black;
+    width: 100%;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
+
+
+ /* - Github：https://github.com/JoeyYi */
+
+
+
+/* https://joeyyi.github.io/SISU-campus-map/
+https://damp-lake-13286.herokuapp.com */
+
+.row{
+    background-color:;
+    color:;
+    margin: 0 auto;
+    width:100%;
+    text-align: center;
+}
+
+
+.carousel-item img{
+    height: 150px;
+    width: 150px;
+}
+
+
+@media (max-width: 600px) {
+    .three.columns {
+        width: 100% !important;
+    }
+    .nine.columns {
+        width: 100% !important;
+    }
+
+}
+

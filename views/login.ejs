@@ -1,0 +1,21 @@
+<% include partials/header %>
+
+<h1>Login to account</h1>
+<form action="/login" method="post">
+    <div class="form-group">
+    <label>Username</label>
+    <input type="text" class="form-control" name="username" placeholder="Username">
+  </div>
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+    <a href="/register" >Not a user? Register now!</a>
+<a href="/">Back to homepage</a>
+
+<% include partials/footer %>
+
+
+   
